@@ -38,6 +38,19 @@ Additionally, it has the capability to determine whether a provided photo is a c
 - **Automated Workflows:** Integrate the API into your workflows to streamline document processing and decrease manual data entry efforts.
 - **Regulatory Compliance:** Validate documents to ensure alignment with regulatory standards and accuracy of contained information.
 
+## Car Validator:
+The Car Validator feature of the KVALIDATOR employs a trained TensorFlow model and advanced OpenCV image processing techniques to accurately determine whether a provided photo is an image of a car or not.
+
+<div align='center' style="display: flex; justify-content: center;">
+  <img src="https://github.com/kw4rgs/kvalidators/blob/7999e67da38df77952301edb730cf18c32c30d7c/examples/car1.png" alt="example_1" style="width: 300px; height: 300px; flex: 1;">
+  <img src="https://github.com/kw4rgs/kvalidators/blob/7999e67da38df77952301edb730cf18c32c30d7c/examples/car2.jpeg" alt="example_2" style="width: 300px; height: 300px; flex: 1;">
+  <img src="https://github.com/kw4rgs/kvalidators/blob/7999e67da38df77952301edb730cf18c32c30d7c/examples/not_car.jpeg" alt="example_3" style="width: 300px; height: 300px; flex: 1;">
+</div>
+
+
+
+
+
 ## Authors
 
 - [@kw4rgs](https://www.github.com/kw4rgs)
