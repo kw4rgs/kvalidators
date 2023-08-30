@@ -1,6 +1,15 @@
-![kvalidator_logo](https://github.com/kw4rgs/kvalidators/blob/4e55a4d7877eecc9e35bee3d58ac584b8ecdbd7a/kvalidator.png)
+<div align="center">
+  <img src="https://github.com/kw4rgs/kvalidators/blob/4e55a4d7877eecc9e35bee3d58ac584b8ecdbd7a/kvalidator.png" alt="kvalidator_logo">
+</div>
 
 # KVALIDATOR
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 The Kw4rgs's Document/Image Validation and Data Extraction API (KVALIDATOR) is a powerful tool that combines:
 
@@ -29,13 +38,6 @@ Additionally, it has the capability to determine whether a provided photo is a c
 - **Automated Workflows:** Integrate the API into your workflows to streamline document processing and decrease manual data entry efforts.
 - **Regulatory Compliance:** Validate documents to ensure alignment with regulatory standards and accuracy of contained information.
 
-
-## Tech Stack
-
-- Python
-- FastAPI
-- TensorFlow
-- OpenCV
 ## Authors
 
 - [@kw4rgs](https://www.github.com/kw4rgs)
