@@ -1,22 +1,41 @@
-# kvalidators
-API for validating various documents, car pictures and extracting information from IDs.
+![kvalidator_logo](https://github.com/kw4rgs/kvalidators/blob/4e55a4d7877eecc9e35bee3d58ac584b8ecdbd7a/kvalidator.png)
 
-Description:
-The Kw4rgs's Document Validation and Data Extraction API is a powerful tool that combines advanced OCR (Optical Character Recognition) techniques, state-of-the-art Neuronal Network / Machine Learning algorithms, and robust Computer Vision capabilities to validate and extract valuable data from images of various documents. Whether you're dealing with identification cards, licenses, or other types of documents, this API empowers you to efficiently verify document authenticity, validate their content, and extract pertinent information accurately.
+# KVALIDATOR
 
-Key Features:
+The Kw4rgs's Document/Image Validation and Data Extraction API (KVALIDATOR) is a powerful tool that combines:
 
-Document Validation: Leverage cutting-edge Computer Vision techniques to validate the authenticity of documents by detecting logos, watermarks, and other visual cues.
-Data Extraction: Utilize OCR technologies to automatically extract textual and numeric information from images, transforming them into structured and usable data.
-Customizable Validation: Tailor validation criteria based on predefined templates and models, allowing you to adapt the API to specific document types and standards.
-Machine Learning Integration: Employ Machine Learning models to improve accuracy over time, enabling the API to adapt to evolving document formats and potential forgery attempts.
-Pythonic and Easy-to-Use: Built with Pythonic conventions and intuitive design, making it accessible for developers to integrate seamlessly into their projects.
-API Documentation: Comprehensive API documentation and customizable OpenAPI specifications help developers understand endpoints, input requirements, and expected responses.
-Use Cases:
+- Advanced OCR (Optical Character Recognition) techniques.
+- State-of-the-art Neuronal Networks / Machine Learning algorithms.
+- Robust Computer Vision capabilities and techniques.
 
-Document Authentication: Verify the authenticity of identification cards, licenses, and certificates by detecting hidden security features and logos.
-Data Extraction: Automatically extract key data such as names, dates, addresses, and other relevant information from scanned documents.
-Fraud Prevention: Employ advanced algorithms to detect signs of tampering, ensuring that submitted documents are genuine and unaltered.
-Automated Workflows: Integrate the API into your workflows to streamline document processing and reduce manual data entry efforts.
-Regulatory Compliance: Validate documents to ensure they meet regulatory standards and contain accurate information.
-The Kw4rgs's Document Validation and Data Extraction API empowers businesses, organizations, and developers to enhance document processing efficiency, reduce fraud, and improve accuracy in data extraction. Whether you're building applications for customer onboarding, KYC (Know Your Customer) compliance, or any other document-related process, this API is designed to provide robust validation and extraction capabilities.
+Whether you're dealing with identification cards, licenses, or other types of documents, this API empowers you to efficiently verify document authenticity, validate their content, and extract pertinent information accurately.
+
+Additionally, it has the capability to determine whether a provided photo is a car photo or not.
+
+## Key Features:
+
+- **Document Validation:** Leverage cutting-edge Computer Vision techniques to authenticate documents by detecting logos, watermarks, and other visual cues.
+- **Data Extraction:** Utilize OCR technologies to automatically extract textual and numeric information from images, transforming them into structured and usable data.
+- **Customizable Validation:** Tailor validation criteria based on predefined templates and models, allowing adaptation of the API to specific document types and standards.
+- **Machine Learning and Neural Networks Integration:** Employ Machine Learning models to enhance accuracy over time, enabling the API to adjust to evolving document formats and potential forgery attempts.
+- **Pythonic and User-Friendly:** Developed with Pythonic conventions and an intuitive design, making it accessible for developers to seamlessly integrate into their projects.
+- **API Documentation:** Comprehensive API documentation and customizable OpenAPI specifications help developers comprehend endpoints, input requirements, and anticipated responses.
+
+## Use Cases:
+
+- **Document Authentication:** Verify the authenticity of identification cards, licenses, and certificates by detecting hidden security features and logos.
+- **Data Extraction:** Automatically extract key data such as names, dates, addresses, and other pertinent information from scanned documents.
+- **Fraud Prevention:** Implement advanced algorithms to identify signs of tampering, ensuring that submitted documents are authentic and unaltered.
+- **Automated Workflows:** Integrate the API into your workflows to streamline document processing and decrease manual data entry efforts.
+- **Regulatory Compliance:** Validate documents to ensure alignment with regulatory standards and accuracy of contained information.
+
+
+## Tech Stack
+
+- Python
+- FastAPI
+- TensorFlow
+- OpenCV
+## Authors
+
+- [@kw4rgs](https://www.github.com/kw4rgs)
