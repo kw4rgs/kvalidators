@@ -39,4 +39,4 @@ app.include_router(cedula_extractor.router)
 
 
 if __name__ == "__main__":
-    uvicorn.run("kvalidators:app", host="127.0.0.1", port=6969, reload=True, workers=1)
+    uvicorn.run("kvalidator:app", host="127.0.0.1", port=6969, reload=True, workers=1)
