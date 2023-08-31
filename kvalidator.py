@@ -20,7 +20,7 @@ app = FastAPI(
     description="API for validating various documents, car pictures and extracting information from IDs.",
     version="1.0.0",
     responses={404: {"description": "Not found"}},
-    dependencies=[Depends(verify_token)]
+    #dependencies=[Depends(verify_token)] # Uncomment this line to enable token verification
 )
 
 @app.get("/", status_code=status.HTTP_200_OK)
