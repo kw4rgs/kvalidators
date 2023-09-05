@@ -25,7 +25,7 @@ class TextExtractor:
     def extract_text(self, image):
         return pytesseract.image_to_string(image, lang="spa")
 
-class KeywordChecker:
+class FrontKeywordChecker:
     def __init__(self):
         self.keywords = ['Licencia', 'Conducir']
 
@@ -38,13 +38,12 @@ class LicenciaFrontValidator:
     def __init__(self):
         self.image_processor = ImageProcessor()
         self.text_extractor = TextExtractor()
-        self.keyword_checker = KeywordChecker()
+        self.keyword_checker = FrontKeywordChecker()
 
     def validate(self, image_base64):
         prepro_image = self.image_processor.process_image(image_base64)
         extracted_text = self.text_extractor.extract_text(prepro_image)
         found_keywords = self.keyword_checker.check_keywords(extracted_text)
-
         return bool(found_keywords)
 
 # Main method
@@ -103,7 +102,7 @@ class TextExtractor:
     def extract_text(self, image):
         return pytesseract.image_to_string(image, lang="spa")
 
-class KeywordChecker:
+class BackKeywordChecker:
     def __init__(self):
         self.keywords = ['Grupo', 'factor', 'Donante', 'Motocicleta', 'Cuil']
 
@@ -116,7 +115,7 @@ class LicenciaBackValidatorAlt():
     def __init__(self):
         self.image_processor = ImageProcessor()
         self.text_extractor = TextExtractor()
-        self.keyword_checker = KeywordChecker()
+        self.keyword_checker = BackKeywordChecker()
         
     def validate(self, image_base64):
         prepro_image = self.image_processor.process_image(image_base64)
@@ -136,7 +135,6 @@ async def licencia_front_validator(data: dict) -> dict:
     try:
         image_data = data.get('data')
         is_valid = validator_instance_front.validate(image_data)
-
         if is_valid:
             response_content = {'error': False, 'data': 'This is a valid licencia front image'}
         else:
