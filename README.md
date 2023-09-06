@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/kw4rgs/kvalidators/blob/4e55a4d7877eecc9e35bee3d58ac584b8ecdbd7a/kvalidator.png" alt="kvalidator_logo">
+  <img src="https://github.com/kw4rgs/kvalidators/blob/05fd2f988d04c6711a7103cb4001b55f7588936b/kvalidator_fa_logo.png" alt="kvalidator_logo">
 </div>
 
 # KVALIDATOR
