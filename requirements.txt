@@ -8,5 +8,6 @@ pyzbar
 numpy
 tensorflow
 pytesseract
-zxing
+zxing==1.0.1
+
 
